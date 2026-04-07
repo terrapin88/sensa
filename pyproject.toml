@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "sensa"
+name = "sensa-ai"
 version = "0.1.0"
 description = "Real-time environmental context for AI agents"
 readme = "README.md"
@@ -36,6 +36,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/sensa-ai/sensa-py"
-Repository = "https://github.com/sensa-ai/sensa-py"
-Issues = "https://github.com/sensa-ai/sensa-py/issues"
+Homepage = "https://github.com/terrapin88/sensa"
+Repository = "https://github.com/terrapin88/sensa"
+Issues = "https://github.com/terrapin88/sensa/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["sensa"]
