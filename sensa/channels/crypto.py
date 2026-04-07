@@ -17,6 +17,7 @@ _TICKER_MAP = {
     "dogecoin": "DOGE",
     "cardano": "ADA",
     "ripple": "XRP",
+    "bittensor": "TAO",
 }
 
 
