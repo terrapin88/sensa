@@ -12,6 +12,7 @@ DEFAULT_STALENESS: Dict[str, float] = {
     "weather": 15.0,
     "crypto": 5.0,
     "news": 30.0,
+    "sports": 2.0,
 }
 
 # Default token allocations (priority weights)
@@ -20,6 +21,7 @@ DEFAULT_TOKEN_WEIGHTS: Dict[str, float] = {
     "weather": 0.25,
     "crypto": 0.35,
     "news": 0.30,
+    "sports": 0.40,
 }
 
 
